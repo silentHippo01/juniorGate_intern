@@ -1,10 +1,10 @@
-import AppRouter  from './providers/router/ui/AppRouter';
+import { Main } from 'pages/Main';
 import './styles/index.scss';
 
 const App = () => {
     return (
         <div className="app">
-            <AppRouter /> 
+            <Main /> 
         </div>
     );
 };
